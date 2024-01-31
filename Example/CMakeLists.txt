@@ -4,7 +4,7 @@ add_executable(Example)
 
 target_link_libraries(Example
     PRIVATE
-    Boost::all
+    Boost::math
 )
 
 target_sources(Example
